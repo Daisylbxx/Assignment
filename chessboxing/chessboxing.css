@@ -1,0 +1,401 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #bbb;
+}
+
+
+.backgroundmain {
+    background-color: #fff;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+
+/* navigation bar */
+.guide li {
+    display: inline-block;
+    font: 22px/50px 'Kanit', sans-serif;
+    padding: 0 30px;
+    color: #eee;
+    text-align: center;
+}
+
+.guide h1 {
+    font: 6em/350px 'Kanit', sans-serif;
+    color: #eee;
+}
+
+.guide-text {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.guide-text a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.guide-text a:hover {
+    color: #ff0;
+}
+
+.guide li:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+
+
+.guide {
+    background: url('https://github.com/dinikap/CSC8018_cw1/blob/8536c59679681aac9f4f24895a2a5390c06daaa9/CSC8018%20coursework%20images%202023/chessboxing_background.jpg?raw=true') 100% 100% no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 30px;
+    height: 400px;
+    padding: 0 80px;
+}
+
+
+
+.border1 {
+    margin: 0 80px;
+    font: 14pt/1.5 'Crimson Text', serif;
+}
+
+/* first  */
+.ring {
+    float: right;
+    width: 500px;
+    height: 400px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 0px;
+}
+
+.img1 {
+    width: 480px;
+    margin-left: 10px;
+}
+
+.content {
+    margin-bottom: 30px;
+}
+
+.first1 {
+    margin-bottom: 20px;
+}
+
+.firsttext {
+    font-style: italic;
+    text-align: justify;
+}
+
+
+
+/* history */
+.hist {
+    font-family: 'Kanit', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.history {
+    margin-top: 30px;
+}
+
+.history p {
+    margin-bottom: 1em;
+}
+
+
+iframe {
+    width: 90%;
+    height: 300px;
+    margin-left: 20px;
+
+}
+
+.video {
+    float: right;
+    width: 500px;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 20px;
+    margin-top: 0px;
+    font-style: italic;
+
+}
+
+
+.history h1::before {
+    content: '\2655';
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.Timeline {
+    display: flex;
+    justify-content: center;
+    width: 95%;
+    height: 100%;
+    border: 3px solid #ccc;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+
+}
+
+.table {
+    float: left;
+    width: 50%;
+}
+
+.ultable {
+    width: 95%;
+}
+
+
+.mapimg {
+    margin: 120px 0;
+    float: right;
+}
+
+th {
+    text-align: center;
+
+}
+
+tr {
+    border-bottom: 3px solid #cdcdcd;
+}
+
+.title {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td,
+th {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+
+
+
+
+/* rules */
+.rul {
+    font-family: 'Kanit', sans-serif;
+
+    margin-bottom: 30px;
+}
+
+.ul1 {
+    list-style-position: outside;
+    margin-left: 0;
+    padding-left: 30px;
+}
+
+.ul2 {
+    padding-left: 30px;
+}
+
+.rules h1::before {
+    content: '\265a';
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.rules p {
+    margin-bottom: 1em;
+}
+
+/* training */
+.tra {
+    font-family: 'Kanit', sans-serif;
+
+    margin-bottom: 30px;
+}
+
+.training h1::before {
+    content: '\2656';
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.training p {
+    margin-bottom: 1em;
+}
+
+/* competition */
+.compet {
+    font-family: 'Kanit', sans-serif;
+
+    margin-bottom: 30px;
+}
+
+.competition h1::before {
+    content: '\265f';
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.specialparagraph {
+    font-style: italic;
+    margin-left: 1em;
+}
+
+.competition p {
+    margin-bottom: 1em;
+}
+
+/* bottom design */
+.wholebottom {
+    width: 100%;
+    height: 100%;
+}
+
+.bottomtext {
+    position: absolute;
+    margin: 50px 0 0 300px;
+    text-align: center;
+    color: #ccc;
+}
+
+.bottomtext a {
+    color: #ccc;
+}
+
+.blackbottom {
+    width: 1080px;
+    height: 100px;
+    background-color: black;
+}
+
+
+
+/* samll  */
+@media screen and (max-width:600px) {
+    .backgroundmain {
+        width: 100%;
+        margin: 0 auto;
+        background-color: #fff
+    }
+
+    .guide {
+        background: url('https://github.com/dinikap/CSC8018_cw1/blob/8536c59679681aac9f4f24895a2a5390c06daaa9/CSC8018%20coursework%20images%202023/chessboxing_background.jpg?raw=true') 100% 100% no-repeat;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+        height: 400px;
+        padding: 0 80px;
+    }
+
+    .guide h1 {
+        text-align: left;
+        font: 3em/350px 'Kanit', sans-serif;
+        color: #eee;
+    }
+
+    .textbox {
+        width: 100%;
+        position: absolute;
+    }
+
+    .textbox>li a {
+        color: #fff;
+        padding: 1px 5px;
+        font-weight: 500;
+        width: 100%;
+        display: block;
+        text-align: right;
+    }
+
+    .ring {
+        float: right;
+        width: 90%;
+        border: 3px solid #ccc;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 20px;
+        margin-top: 0px;
+    }
+
+    .img1 {
+        width: 90%;
+    }
+
+    .video {
+        float: right;
+        width: 90%;
+        height: 90%;
+        border: 3px solid #ccc;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 20px;
+        margin-top: 0px;
+
+    }
+
+    iframe {
+        width: 90%;
+        height: 90%;
+    }
+
+    .Timeline {
+        display: flex;
+        justify-content: center;
+        width: 90%;
+        height: 90%;
+        border: 3px solid #ccc;
+        border-radius: 20px;
+        padding: 15px;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 30px;
+    }
+
+    .mapimg {
+        float: right;
+        width: 100%;
+        height: 50%;
+    }
+
+    .singletable {
+
+        width: 200%;
+    }
+
+    .guide li {
+        display: inline-block;
+        font: 22px/50px 'Kanit', sans-serif;
+        padding: 0 30px;
+        color: #eee;
+        text-align: right;
+        width: 100%;
+    }
+
+    .textbox {
+        margin: -150px -30px 0 0;
+    }
+
+    .bottomtext {
+        position: absolute;
+        margin: 50px 0 0 50px;
+        text-align: center;
+        color: #ccc;
+    }
+}
